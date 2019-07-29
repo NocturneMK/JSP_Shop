@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c3p0-config>
+
+  <named-config name="Nocturne"> 
+    <property name="driverClass">com.mysql.jdbc.Driver</property>
+ 	<property name="jdbcUrl">jdbc:mysql://localhost:3306/jsp_shop</property>
+ 	<property name="user">root</property>
+ 	<property name="password">WeiYiNa651097</property>
+    <property name="initialPoolSize">10</property>
+    <property name="maxIdleTime">30</property>
+    
+  </named-config>
+</c3p0-config>
+
+

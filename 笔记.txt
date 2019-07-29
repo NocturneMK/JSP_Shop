@@ -1,0 +1,22 @@
+空指针异常的错误原因：
+
+1、数据库连接故障（未加载驱动、数据库密码、表名错误等）
+
+2、sql语句错误（语法错误等）
+
+
+admin文件夹 ：后台管理页面
+admin/home.jsp：商城管理系统后台首页
+admin/product文件夹：后台商品列表管理
+
+js文件夹：js、jq的相关第三方插件
+
+index.jsp：网站首页，输入网址：http://localhost:8080/JSP_ShopWeb 由于web.xml的配置，会访问此页
+product_list.jsp：商品分页显示页面
+product_info.jsp：某个商品详细信息页面
+register.jsp：会员注册页面，含有校验功能
+cart.jsp：购物车页面
+header.jsp：所用页面的公共头部
+login.jsp：登陆页面
+order_info.jsp：订单详情页面
+order_list.jsp：订单列表页面
